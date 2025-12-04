@@ -51,13 +51,13 @@ export default function BlogPage() {
     fetchPosts();
   }, [fetchPosts]);
 
-  const categories = ['all', 'Transformers', 'LLMs', 'RL', 'Audio ML', 'RAG', 'Research'];
+  const categories = ['all', 'Transformers', 'LLMs', 'RL', 'Audio ML', 'RAG', 'Research', 'Projects'];
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <h1 className="text-4xl font-bold text-gray-900 mb-2">Blog & Journal</h1>
+      <h1 className="text-4xl font-bold text-gray-900 mb-2">My Journal</h1>
       <p className="text-gray-600 mb-8">
-        Daily documentation of my journey through machine learning and AI engineering.
+        Daily documentation of what I built and learned.
       </p>
 
       {/* Category Filter */}
